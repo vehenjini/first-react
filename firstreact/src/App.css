@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.back {
+  width: 500px;
+  height: 500px;
+}

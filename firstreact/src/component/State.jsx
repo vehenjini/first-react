@@ -3,7 +3,7 @@ import {useState} from 'react';
 import './State.css'
 
 function State() {
-  let user = 'hyunjin1';
+  let user = 'yejin1';
   // react에서 변수처럼 자료를 보관할 수 있는 state문법
   let [count, setCount] = useState(0);
   let [like, setLike] = useState([0,0,0]);
@@ -12,8 +12,8 @@ function State() {
   // 한 곳에다가 여러가지 자료를 저장하고 싶을 때 Array[ ]
   let [title, setTitle] = useState(["DW아카데미 503호", "DW아카데미 501호", "DW아카데미 203호"])
   let [bgColor, setbgColor] = useState('white');
-  let [name, setName] =useState(['배현진1', '배현진2', '배현진3'])
-  let [ye, setYe] = ['hyunjin', 'lee', 'lala'];
+  let [name, setName] =useState(['이예진1', '이예진2', '이예진3'])
+  let [ye, setYe] = ['yejin', 'lee', 'lala'];
 
 
   let changeBg = () => {
